@@ -1,13 +1,17 @@
 {
   "name": "express-zod-01",
   "version": "1.0.0",
-  "description": "",
+  "description": "Playing around with Zod schema validation and ExpressJS",
   "main": "dist/app.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adamuchi/express-zod-01.git"
+  },
   "scripts": {
     "dev": "nodemon src/app.ts"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "adam@adamuchi.org",
+  "license": "MIT",
   "devDependencies": {
     "@types/express": "^4.17.13",
     "@types/lodash": "^4.14.182",
